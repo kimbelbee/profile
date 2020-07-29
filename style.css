@@ -46,17 +46,19 @@
     text-decoration: none;
   }
 
-  @media (max-width: 960px) {
-  /* For a screen < 960px, this CSS will be read */
-    .starter {
-    width: 700px;
+  .starter {
     background-image: url('images/flora.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
     padding: 250px;
     padding-top: 20px;
+  }
 
+  @media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+    .starter {
+    width: 701px;
   }
 }
 
@@ -64,13 +66,6 @@
   /* For a screen < 960px, this CSS will be read */
     .starter {
     width: 500px;
-    background-image: url('images/flora.jpeg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
-    padding: 250px;
-    padding-top: 20px;
-
   }
 }
 
