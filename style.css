@@ -1,0 +1,88 @@
+@import url(https://fonts.google.com/specimen/Quicksand?sidebar.open=true&selection.family=Quicksand:wght@300);
+@import url(https://fonts.google.com/specimen/Lexend+Zetta?selection.family=Lexend+Zetta|Quicksand:wght@300#standard-styles);
+<style>
+
+  body {
+  background-color: #EDDCD2;
+  font-family:'Quicksand';
+  color:#6d6875;
+  }
+
+  h1 {
+    font-family:'Lexend Zetta';
+    color:#BDB5B3;
+    font-size: 60;
+    line-height:2;
+    margin-top: 5;
+  }
+
+  h2 {
+    font-family:'Lexend Zetta';
+    color:#BDB5B3;
+    font-size: 20;
+  }
+
+  a {
+    font-family:'Quicksand';
+    font-size: 20;
+    color:#BDB5B3;
+    line-height:2;
+  }
+
+  p,
+  ul,
+  li {
+    font-family:'Quicksand';
+    font-size: 20;
+    color:#BDB5B3;
+  }
+
+  img {
+    border-radius: 300px;
+  }
+
+  .nodeco {
+    list-style: none;
+    text-decoration: none;
+  }
+
+  @media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+    .starter {
+    width: 700px;
+    background-image: url('images/flora.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 250px;
+    padding-top: 20px;
+
+  }
+}
+
+  @media (max-width: 720px) {
+  /* For a screen < 960px, this CSS will be read */
+    .starter {
+    width: 500px;
+    background-image: url('images/flora.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 250px;
+    padding-top: 20px;
+
+  }
+}
+
+
+  .next {
+    background-color: #e8cfc5;
+    text-align: center;
+    margin-top: 40px;
+    padding: 50px;
+
+  }
+  .button {
+
+  }
+</style>
