@@ -1,5 +1,8 @@
 @import url(https://fonts.google.com/specimen/Quicksand?sidebar.open=true&selection.family=Quicksand:wght@300);
 @import url(https://fonts.google.com/specimen/Lexend+Zetta?selection.family=Lexend+Zetta|Quicksand:wght@300#standard-styles);
+
+@import url("cards.css");
+
 <style>
 
   body {
@@ -8,27 +11,22 @@
   color:#6d6875;
   }
 
-  h1 {
+  h1,
+  h2 {
     font-family:'Lexend Zetta';
     color:#BDB5B3;
-    font-size: 60;
-    line-height:2;
+  }
+
+  h1 {
+    font-size: 70;
     margin-top: 5;
   }
 
   h2 {
-    font-family:'Lexend Zetta';
-    color:#BDB5B3;
     font-size: 20;
   }
 
-  a {
-    font-family:'Quicksand';
-    font-size: 20;
-    color:#293b34;
-    line-height:2;
-  }
-
+  a,
   p,
   ul,
   li {
@@ -41,45 +39,5 @@
     list-style: none;
     text-decoration: none;
   }
-  .next {
-    background-color: #e8cfc5;
-    text-align: center;
-    margin-top: 40px;
-    padding: 50px;
-   /* width: 2,5em;*/
-
-  }
-.next img {
-  border-radius: 300px;
-  margin-bottom: 20px;
-}
-  .starter {
-    background-image: url('images/flora.jpeg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
-    padding: 50px;
-    padding-top: 50px;
-    height: 100vh;
-   /* width: 2,5em;*/
-  }
-
-
-/*  @media (max-width: 960px) {
-    .container {
-    width: 600px;
-    }
-  }
-
-  @media (max-width: 720px) {
-    .container {
-    width: 200px;
-    }
-  }
-  @media (max-width: 200px) {
-    .container {
-    width: 50px;
-    }
-  }*/
 
 </style>
