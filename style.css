@@ -25,7 +25,7 @@
   a {
     font-family:'Quicksand';
     font-size: 20;
-    color:#BDB5B3;
+    color:#293b34;
     line-height:2;
   }
 
@@ -34,55 +34,52 @@
   li {
     font-family:'Quicksand';
     font-size: 20;
-    color:#BDB5B3;
-  }
-
-  img {
-    border-radius: 300px;
+    color:#293b34;
   }
 
   .nodeco {
     list-style: none;
     text-decoration: none;
   }
-
-  @media (max-width: 960px) {
-  /* For a screen < 960px, this CSS will be read */
-    .starter {
-    width: 700px;
-    background-image: url('images/flora.jpeg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
-    padding: 250px;
-    padding-top: 20px;
-
-  }
-}
-
-  @media (max-width: 720px) {
-  /* For a screen < 960px, this CSS will be read */
-    .starter {
-    width: 500px;
-    background-image: url('images/flora.jpeg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
-    padding: 250px;
-    padding-top: 20px;
-
-  }
-}
-
-
   .next {
     background-color: #e8cfc5;
     text-align: center;
     margin-top: 40px;
     padding: 50px;
+   /* width: 2,5em;*/
 
   }
-  .button {
-
+.next img {
+  border-radius: 300px;
+  margin-bottom: 20px;
+}
+  .starter {
+    background-image: url('images/flora.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 50px;
+    padding-top: 50px;
+    height: 100vh;
+   /* width: 2,5em;*/
   }
+
+
+/*  @media (max-width: 960px) {
+    .container {
+    width: 600px;
+    }
+  }
+
+  @media (max-width: 720px) {
+    .container {
+    width: 200px;
+    }
+  }
+  @media (max-width: 200px) {
+    .container {
+    width: 50px;
+    }
+  }*/
+
 </style>
